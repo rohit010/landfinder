@@ -46,16 +46,22 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+
+//			array('website_url', 'url'),
+			
+			array('address', 'length', 'max'=>500),
+			array('company_logo, website_url', 'length', 'max'=>256),
+			array('user_type', 'length', 'max'=>3),
+			
 			array('full_name, password, mobile_no, email, address, city_id, status, user_type, created_by, created_time', 'required'),
-			array('phone_no, city_id, operating_from, status, listing_flag, priority, created_by, created_time', 'numerical', 'integerOnly'=>true),
+			array('phone_no, city_id, operating_from, status, listing_flag, priority, created_by, created_time, updated_by, update_time', 'numerical', 'integerOnly'=>true),
 			array('full_name, email', 'length', 'max'=>60),
 			array('company_name', 'length', 'max'=>512),
 			array('password', 'length', 'max'=>32),
 			array('country_code, area_code', 'length', 'max'=>11),
-//			array('website_url', 'url'),
+			array('mobile_no', 'length', 'max'=>10),
 			array('email', 'email'),
 			array('email', 'unique'),
-			array('mobile_no', 'length', 'max'=>10),
 			array('address', 'length', 'max'=>500),
 			array('company_logo, website_url', 'length', 'max'=>256),
 			array('user_type', 'length', 'max'=>3),
