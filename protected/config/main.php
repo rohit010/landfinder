@@ -90,10 +90,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=landfinder',
+			'connectionString' => 'mysql:host=localhost;dbname=landfind_db',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'mysql',
+			'username' => 'landfind',
+			'password' => 'land@807',
 			'charset' => 'utf8',
 		),
 		
