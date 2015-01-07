@@ -84,7 +84,8 @@ class Properties extends CActiveRecord
 		return array(
 			array('property_for, property_condition, property_type, property_sub_type, state, city, location, name, sale_price_cores, sale_price_lacks, sale_price_thousands, property_rate_show_as, transaction_type, possession_status', 'required'),
 			array('prop_id, property_for, property_condition, property_type, property_sub_type, state, city, property_rate_show_as, transaction_type, possession_status, additional_room_puja, additional_room_study, additional_room_store, additional_room_servent, type_of_owner, no_of_units, prop_owner, created_time, created_by, updated_time, updated_by, status', 'numerical', 'integerOnly'=>true),
-			array('location, name, description, additional_work, other_changes, near_by_hospital, near_by_mall_market, near_by_atm_bank, near_by_airport, near_by_railway_station, near_by_school, near_by_metro_station, landmark', 'length', 'max'=>512),
+			array('location, name, additional_work, other_changes, near_by_hospital, near_by_mall_market, near_by_atm_bank, near_by_airport, near_by_railway_station, near_by_school, near_by_metro_station, landmark', 'length', 'max'=>512),
+			array('description', 'length', 'max'=>4096),
 			array('area, property_facing, near_by_hospital_distance, near_by_mall_market_distance, near_by_atm_bank_distance, near_by_airport_distance, near_by_railway_station_distance, near_by_school_distance, near_by_metro_station_distance', 'length', 'max'=>64),
 			array('property_image, latitude, longitude', 'length', 'max'=>256),
 			array('sale_price_cores, sale_price_lacks, sale_price_thousands, total_sale_price, sale_price_rate, available_from_month, available_from_year, pincode', 'length', 'max'=>11),
