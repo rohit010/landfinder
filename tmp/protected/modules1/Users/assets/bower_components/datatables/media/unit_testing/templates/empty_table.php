@@ -29,7 +29,7 @@
 	<body id="dt_example">
 		<div id="container">
 			<div class="full_width big">
-				<i>DataTables</i> table with HTML elements template
+				<i>DataTables</i> empty table template
 			</div>
 			
 			<h1>Live example</h1>
@@ -37,27 +37,16 @@
 <table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
 	<thead>
 		<tr>
-			<th>Reflection</th>
-			<th>Link</th>
+			<th>Rendering engine</th>
+			<th>Browser</th>
+			<th>Platform(s)</th>
+			<th>Engine version</th>
+			<th>CSS grade</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>1</td>
-			<td><a href="http://www.sprymedia.co.uk/article/DataTables">DataTables</a></td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td><a href="http://www.sprymedia.co.uk/article/Integrity">A link to Integrity</a></td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td><a href="http://www.sprymedia.co.uk/article/Integrity">Integrity</a></td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>EIntegrity</td>
-		</tr>
+		
+	</tbody>
 </table>
 			</div>
 			<div class="spacer"></div>

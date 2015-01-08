@@ -18,6 +18,11 @@
 		<script type="text/javascript" language="javascript" src="../../js/jquery.js"></script>
 		<script type="text/javascript" language="javascript" src="../../js/jquery.dataTables.js"></script>
 		<script type="text/javascript" language="javascript" src="../unit_test.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready( function () {
+				$('#demo').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
+			} );
+		</script>
 		<?php
 			$aScripts = explode( ":", $_GET['scripts'] );
 			for ( $i=0 ; $i<count($aScripts) ; $i++ )
@@ -29,37 +34,11 @@
 	<body id="dt_example">
 		<div id="container">
 			<div class="full_width big">
-				<i>DataTables</i> table with HTML elements template
+				<i>DataTables</i> dynamic table template
 			</div>
 			
 			<h1>Live example</h1>
-			<div id="demo">
-<table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
-	<thead>
-		<tr>
-			<th>Reflection</th>
-			<th>Link</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td><a href="http://www.sprymedia.co.uk/article/DataTables">DataTables</a></td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td><a href="http://www.sprymedia.co.uk/article/Integrity">A link to Integrity</a></td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td><a href="http://www.sprymedia.co.uk/article/Integrity">Integrity</a></td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>EIntegrity</td>
-		</tr>
-</table>
-			</div>
+			<div id="demo"></div>
 			<div class="spacer"></div>
 		</div>
 	</body>
