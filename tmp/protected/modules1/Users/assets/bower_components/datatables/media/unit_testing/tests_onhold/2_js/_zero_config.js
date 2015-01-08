@@ -1,5 +1,5 @@
-// DATA_TEMPLATE: dom_data
-oTest.fnStart( "Sanity checks for DataTables with DOM data" );
+// DATA_TEMPLATE: js_data
+oTest.fnStart( "Sanity checks for DataTables with data from JS" );
 
 oTest.fnTest( 
 	"jQuery.dataTable function",
@@ -20,7 +20,10 @@ oTest.fnTest(
 );
 
 $(document).ready( function () {
-	$('#example').dataTable();
+	var oInit = {
+		"aaData": gaaData
+	};
+	$('#example').dataTable( oInit );
 	
 	/* Basic checks */
 	oTest.fnTest( 
@@ -313,7 +316,7 @@ $(document).ready( function () {
 		function () { 
 			/* Reset the table such that the old sorting doesn't mess things up */
 			oSession.fnRestore();
-			$('#example').dataTable();
+			$('#example').dataTable( oInit );
 			$('#example_filter input').val("W").keyup(); },
 		function () { return $('#example tbody tr:eq(0) td:eq(0)').html() == "Gecko"; }
 	);

@@ -1,9 +1,11 @@
-// DATA_TEMPLATE: dom_data
+// DATA_TEMPLATE: js_data
 oTest.fnStart( "aaSorting" );
 
 $(document).ready( function () {
 	/* Check the default */
-	var oTable = $('#example').dataTable();
+	var oTable = $('#example').dataTable( {
+		"aaData": gaaData
+	} );
 	var oSettings = oTable.fnSettings();
 	
 	oTest.fnTest( 
@@ -35,6 +37,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['1','asc']]
 			} );
 		},
@@ -47,6 +50,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['1','desc']]
 			} );
 		},
@@ -59,6 +63,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['1','asc']]
 			} );
 		},
@@ -71,6 +76,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['1','desc']]
 			} );
 		},
@@ -83,6 +89,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','asc'], ['1','asc']]
 			} );
 		},
@@ -94,6 +101,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','asc'], ['1','desc']]
 			} );
 		},
@@ -105,6 +113,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','desc'], ['1','asc']]
 			} );
 		},
@@ -116,6 +125,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','desc'], ['1','desc']]
 			} );
 		},
@@ -128,6 +138,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','asc'], ['3','asc']]
 			} );
 		},
@@ -139,6 +150,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','asc'], ['3','desc']]
 			} );
 		},
@@ -150,6 +162,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','desc'], ['3','asc']]
 			} );
 		},
@@ -161,6 +174,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','desc'], ['3','desc']]
 			} );
 		},
@@ -172,6 +186,7 @@ $(document).ready( function () {
 		function () {
 			oSession.fnRestore();
 			$('#example').dataTable( {
+				"aaData": gaaData,
 				"aaSorting": [['0','asc'], ['3','asc'], ['1','asc']]
 			} );
 		},

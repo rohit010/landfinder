@@ -1,62 +1,23 @@
-// DATA_TEMPLATE: dom_data
-oTest.fnStart( "Sanity checks for DataTables with DOM data" );
-
-oTest.fnTest( 
-	"jQuery.dataTable function",
-	null,
-	function () { return typeof jQuery().dataTable == "function"; }
-);
-
-oTest.fnTest(
-	"jQuery.dataTableSettings storage array",
-	null,
-	function () { return typeof jQuery().dataTableSettings == "object"; }
-);
-
-oTest.fnTest(
-	"jQuery.dataTableExt plugin object",
-	null,
-	function () { return typeof jQuery().dataTableExt == "object"; }
-);
+// DATA_TEMPLATE: empty_table
+oTest.fnStart( "Sanity checks for DataTables with delayed DOM creation" );
 
 $(document).ready( function () {
-	$('#example').dataTable();
+	var oInit = {
+		"sAjaxSource": "../../../examples/ajax/sources/arrays.txt",
+		"bDeferRender": true
+	};
+	$('#example').dataTable( oInit );
 	
-	/* Basic checks */
-	oTest.fnTest( 
-		"Length changing div exists",
-		null,
-		function () { return document.getElementById('example_length') != null; }
-	);
-	
-	oTest.fnTest( 
-		"Filtering div exists",
-		null,
-		function () { return document.getElementById('example_filter') != null; }
-	);
-	
-	oTest.fnTest( 
-		"Information div exists",
-		null,
-		function () { return document.getElementById('example_info') != null; }
-	);
-	
-	oTest.fnTest( 
-		"Pagination div exists",
-		null,
-		function () { return document.getElementById('example_paginate') != null; }
-	);
-	
-	oTest.fnTest( 
-		"Processing div is off by default",
-		null,
-		function () { return document.getElementById('example_processing') == null; }
-	);
-	
-	oTest.fnTest( 
+	oTest.fnWaitTest( 
 		"10 rows shown on the first page",
 		null,
 		function () { return $('#example tbody tr').length == 10; }
+	);
+	
+	oTest.fnWaitTest( 
+		"10 TR elements available from fnGetNodes",
+		null,
+		function () { return $('#example').dataTable().fnGetNodes().length == 10; }
 	);
 	
 	oTest.fnTest( 
@@ -65,11 +26,16 @@ $(document).ready( function () {
 		function () { return $('#example tbody td:eq(0)').html() == "Gecko"; }
 	);
 	
-	/* Need to use the WaitTest for sorting due to the setTimeout datatables uses */
 	oTest.fnTest( 
 		"Sorting (first click) on second column",
 		function () { $('#example thead th:eq(1)').click(); },
 		function () { return $('#example tbody td:eq(1)').html() == "All others"; }
+	);
+	
+	oTest.fnWaitTest( 
+		"14 TR elements available from fnGetNodes after sort",
+		null,
+		function () { return $('#example').dataTable().fnGetNodes().length == 14; }
 	);
 	
 	oTest.fnTest( 
@@ -308,12 +274,12 @@ $(document).ready( function () {
 	/*
 	 * Filtering
 	 */
-	oTest.fnTest(
+	oTest.fnWaitTest(
 		"Filter 'W' - rows",
 		function () { 
 			/* Reset the table such that the old sorting doesn't mess things up */
 			oSession.fnRestore();
-			$('#example').dataTable();
+			$('#example').dataTable( oInit );
 			$('#example_filter input').val("W").keyup(); },
 		function () { return $('#example tbody tr:eq(0) td:eq(0)').html() == "Gecko"; }
 	);

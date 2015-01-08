@@ -1,5 +1,5 @@
-// DATA_TEMPLATE: dom_data
-oTest.fnStart( "Sanity checks for DataTables with DOM data" );
+// DATA_TEMPLATE: js_data
+oTest.fnStart( "Sanity checks for DataTables with data from JS - Null data source for last column" );
 
 oTest.fnTest( 
 	"jQuery.dataTable function",
@@ -20,10 +20,20 @@ oTest.fnTest(
 );
 
 $(document).ready( function () {
-	$('#example').dataTable();
+	var oInit = {
+		"aoColumns": [
+			null,
+			null,
+			null,
+			null,
+			{ "mData": null }
+		],
+		"aaData": gaaData
+	};
+	$('#example').dataTable( oInit );
 	
 	/* Basic checks */
-	oTest.fnTest( 
+	oTest.fnWaitTest( 
 		"Length changing div exists",
 		null,
 		function () { return document.getElementById('example_length') != null; }
@@ -53,7 +63,7 @@ $(document).ready( function () {
 		function () { return document.getElementById('example_processing') == null; }
 	);
 	
-	oTest.fnTest( 
+	oTest.fnWaitTest( 
 		"10 rows shown on the first page",
 		null,
 		function () { return $('#example tbody tr').length == 10; }
@@ -67,9 +77,20 @@ $(document).ready( function () {
 	
 	/* Need to use the WaitTest for sorting due to the setTimeout datatables uses */
 	oTest.fnTest( 
+		"Data in last column is empty",
+		null,
+		function () { return $('#example tbody td:eq(4)').html() == ""; }
+	);
+	
+	oTest.fnTest( 
 		"Sorting (first click) on second column",
 		function () { $('#example thead th:eq(1)').click(); },
 		function () { return $('#example tbody td:eq(1)').html() == "All others"; }
+	);
+	oTest.fnTest( 
+		"Data in last column is still empty",
+		null,
+		function () { return $('#example tbody td:eq(4)').html() == ""; }
 	);
 	
 	oTest.fnTest( 
@@ -308,12 +329,12 @@ $(document).ready( function () {
 	/*
 	 * Filtering
 	 */
-	oTest.fnTest(
+	oTest.fnWaitTest(
 		"Filter 'W' - rows",
 		function () { 
 			/* Reset the table such that the old sorting doesn't mess things up */
 			oSession.fnRestore();
-			$('#example').dataTable();
+			$('#example').dataTable( oInit );
 			$('#example_filter input').val("W").keyup(); },
 		function () { return $('#example tbody tr:eq(0) td:eq(0)').html() == "Gecko"; }
 	);
