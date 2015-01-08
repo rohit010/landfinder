@@ -31,7 +31,8 @@ class DefaultController extends Controller
 			if(in_array($current_action,$anaymonous_page_list)){
 				return TRUE;
 			} else {
-				$this->redirect(array("/Users/default/login/?retUrl=$current_page"));
+				header("Location: /Users/default/login/?retUrl=$current_page");
+				//$this->redirect(array("/Users/default/login/?retUrl=$current_page"));
 			}
 		} else {
 			return TRUE;

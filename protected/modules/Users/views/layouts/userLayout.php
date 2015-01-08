@@ -63,7 +63,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"> 
+            <a class="navbar-brand" href="/"> 
                 <span>LandFinder.in</span></a>
 
             <!-- user dropdown starts -->
@@ -75,7 +75,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="#">Profile</a></li>
                     <li class="divider"></li>
-                    <li><a href="login.html">Logout</a></li>
+                    <li><a href="/site/logout">Logout</a></li>
                 </ul>
             </div>
             <!-- user dropdown ends -->

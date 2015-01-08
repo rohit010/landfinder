@@ -567,10 +567,14 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 				    		<label class="radio-inline">
 							    <?php 
 								 $face_list = array(
-								 						"North"	=>	"North",
-								 						"East"	=>	"East",
-								 						"West"	=>	"West",
-								 						"South"	=>	"South"
+								 						"East"			=>	"East",
+								 						"West"			=>	"West",
+								 						"North"			=>	"North",
+								 						"South"			=>	"South",
+								 						"North-East"	=>	"North-East",
+								 						"South-East"	=>	"South-East",
+								 						"Noth-West"		=>	"North-West",
+								 						"South-West"	=>	"South-West",
 								 					);	
 								 			echo $form->dropDownList($model,'property_facing', $face_list, array('empty' => 'Select a Category','class'=>'form-control input-sm'));
 								?>
