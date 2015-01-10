@@ -29,6 +29,10 @@
  * @property string $age_of_construction
  * @property string $description
  * @property string $property_image
+ * @property string $property_image_2
+ * @property string $property_image_3
+ * @property string $property_image_4
+ * @property string $property_image_5
  * @property string $property_address
  * @property string $pincode
  * @property string $latitude
@@ -91,7 +95,7 @@ class Properties extends CActiveRecord
 			array('sale_price_cores, sale_price_lacks, sale_price_thousands, total_sale_price, sale_price_rate, available_from_month, available_from_year, pincode', 'length', 'max'=>11),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, prop_id, property_for, property_condition, property_type, property_sub_type, state, city, location, name, area, area_unit, sale_price_cores, sale_price_lacks, sale_price_thousands, total_sale_price, sale_price_rate, property_rate_show_as, transaction_type, possession_status, available_from_month, available_from_year, age_of_construction, description, property_image, property_address, pincode, latitude, longitude, additional_room_puja, additional_room_study, additional_room_store, additional_room_servent, property_facing, additional_work, type_of_owner, no_of_units, other_changes, near_by_hospital, near_by_hospital_distance, near_by_mall_market, near_by_mall_market_distance, near_by_atm_bank, near_by_atm_bank_distance, near_by_airport, near_by_airport_distance, near_by_railway_station, near_by_railway_station_distance, near_by_school, near_by_school_distance, near_by_metro_station, near_by_metro_station_distance, landmark, prop_owner, created_time, created_by, updated_time, updated_by, status', 'safe', 'on'=>'search'),
+			array('id, prop_id, property_for, property_condition, property_type, property_sub_type, state, city, location, name, area, area_unit, sale_price_cores, sale_price_lacks, sale_price_thousands, total_sale_price, sale_price_rate, property_rate_show_as, transaction_type, possession_status, available_from_month, available_from_year, age_of_construction, description, property_image, property_image_2, property_image_3, property_image_4, property_image_5, property_address, pincode, latitude, longitude, additional_room_puja, additional_room_study, additional_room_store, additional_room_servent, property_facing, additional_work, type_of_owner, no_of_units, other_changes, near_by_hospital, near_by_hospital_distance, near_by_mall_market, near_by_mall_market_distance, near_by_atm_bank, near_by_atm_bank_distance, near_by_airport, near_by_airport_distance, near_by_railway_station, near_by_railway_station_distance, near_by_school, near_by_school_distance, near_by_metro_station, near_by_metro_station_distance, landmark, prop_owner, created_time, created_by, updated_time, updated_by, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -137,6 +141,10 @@ class Properties extends CActiveRecord
 			'age_of_construction' => 'Age Of Construction',
 			'description' => 'Description',
 			'property_image' => 'Property Image',
+			'property_image_2' => 'Property Image 2',
+			'property_image_3' => 'Property Image 3',
+			'property_image_4' => 'Property Image 4',
+			'property_image_5' => 'Property Image 5',
 			'property_address' => 'Property Address',
 			'pincode' => 'Pincode',
 			'latitude' => 'Latitude',
@@ -217,6 +225,10 @@ class Properties extends CActiveRecord
 		$criteria->compare('age_of_construction',$this->age_of_construction,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('property_image',$this->property_image,true);
+		$criteria->compare('property_image_2',$this->property_image_2,true);
+		$criteria->compare('property_image_3',$this->property_image_3,true);
+		$criteria->compare('property_image_4',$this->property_image_4,true);
+		$criteria->compare('property_image_5',$this->property_image_5,true);
 		$criteria->compare('property_address',$this->property_address,true);
 		$criteria->compare('pincode',$this->pincode,true);
 		$criteria->compare('latitude',$this->latitude,true);

@@ -417,16 +417,76 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 					</div>
 				</div>
 				<div class="box-content row">
-					<div class="col-xs-12 col-sm-3 col-md-2">
-						<a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-							Upload Image
-						</a>
-					<?php echo $form->hiddenField($model, 'property_image'); ?>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6">
-				    	<img src ="<?php echo $model->property_image; ?>" id="previewImgage">
+					<div class="col-xs-12 col-sm-6 col-md-12 propertyImagesContainer">
+						<?php $i = 0; ?>
+						<?php if($model->property_image!=""){ 
+							$i++; ?>
+						<div class="propertyImage row">
+							<div class="col-xs-10 col-sm-10 col-md-10">
+						    	<img src ="<?php echo $model->property_image; ?>">
+						    	<?php echo $form->hiddenField($model, 'property_image'); ?>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2">
+								<label><i class="glyphicon glyphicon-remove-circle"></i>Remove</label>
+							</div>
+						</div>
+						<?php } ?>
+						<?php if($model->property_image_2!=""){ 
+							$i++; ?>
+						<div class="propertyImage row">
+							<div class="col-xs-10 col-sm-10 col-md-10">
+						    	<img src ="<?php echo $model->property_image_2; ?>">
+						    	<?php echo $form->hiddenField($model, 'property_image_2'); ?>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2">
+								<label><i class="glyphicon glyphicon-remove-circle"></i>Remove</label>
+							</div>
+						</div>
+						<?php } ?>
+						<?php if($model->property_image_3!=""){ 
+							$i++; ?>
+						<div class="propertyImage row">
+							<div class="col-xs-10 col-sm-10 col-md-10">
+						    	<img src ="<?php echo $model->property_image_3; ?>">
+						    	<?php echo $form->hiddenField($model, 'property_image_3'); ?>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2">
+								<label><i class="glyphicon glyphicon-remove-circle"></i>Remove</label>
+							</div>
+						</div>
+						<?php } ?>
+						<?php if($model->property_image_4!=""){ 
+							$i++; ?>
+						<div class="propertyImage row">
+							<div class="col-xs-10 col-sm-10 col-md-10">
+						    	<img src ="<?php echo $model->property_image_4; ?>">
+						    	<?php echo $form->hiddenField($model, 'property_image_4'); ?>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2">
+								<label><i class="glyphicon glyphicon-remove-circle"></i>Remove</label>
+							</div>
+						</div>
+						<?php } ?>
+						<?php if($model->property_image_5!=""){ 
+							$i++; ?>
+						<div class="propertyImage row">
+							<div class="col-xs-10 col-sm-10 col-md-10">
+						    	<img src ="<?php echo $model->property_image_5; ?>">
+						    	<?php echo $form->hiddenField($model, 'property_image_5'); ?>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2">
+								<label><i class="glyphicon glyphicon-remove-circle"></i>Remove</label>
+							</div>
+						</div>
+						<?php } ?>
+						<input type="hidden" name="imageCounts" value="<?= $i; ?>" class="imageCounts"/>
 				    	<div id="loading"></div>
 				    </div>
+					<div class="col-xs-12 col-sm-3 col-md-12 uploadButton" <?php echo (($i>=5)?"style='display:none;'":""); ?>>
+						<a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+							Add Image
+						</a>
+					</div>
 				     <div class="col-xs-12 col-sm-3 col-md-4">
 				    </div>
 				</div>
@@ -773,6 +833,7 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 						                'class'=>'post_submit',
 						            ));
 						    ?>
+						   <input type="button" value="Crop Image" class="crop_image" style="display:none;"/>
 						<?php $this->endWidget(); ?>
 						<img alt="" src="" id="tmpimg">
 						<input type="hidden" size="4" id="x" name="x">
@@ -814,6 +875,22 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 	.Google-Map #mapCanvas{
 		height:100%;
 		width:90%
+	}
+	.propertyImage{
+		margin:20px;
+		border-bottom: 2px solid #E5E5E5;
+		float: left;
+		width:100%;
+		padding:20px;
+	}
+	.propertyImage img{
+		max-width:100%;
+	}
+	.propertyImage label{
+		cursor: pointer;
+	}
+	#myModal img{
+		//max-width: 100%;
 	}
 </style>
 <script type="text/javascript">
@@ -913,12 +990,10 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 	        	$('#loading').hide();
 	        	filename = data.imgurl;
 	            var imgurl = "/"+data.imgurl; 
-	            $('#tmpimg').attr("src",imgurl);
-	            jcrop_api = $('#tmpimg');
-	            $('#tmpimg').Jcrop({
-	        		onChange: showCoords,
-	        		onSelect: showCoords
-	        	});
+	            $.when($('#tmpimg').attr("src",imgurl)).then(function(){
+	            	$('.crop_image').show();
+	            });
+	            
 	            // on success do some validation or refresh the content div to display the uploaded images 
 	        },
 	 
@@ -936,6 +1011,11 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 	 
 	    return false;
 	}	
+	function UpdateimgBlock(ind, imgname){
+		var imgindex = ((ind<=1)?"":("_"+ind));
+		var newContent = '<div class="propertyImage row"><div class="col-xs-10 col-sm-10 col-md-10"><img src ="'+imgname+'"><input type="hidden" value="'+imgname+'" id="Properties_property_image'+imgindex+'" name="Properties[property_image'+imgindex+']"></div><div class="col-xs-2 col-sm-2 col-md-2"><label><i class="glyphicon glyphicon-remove-circle"></i>Remove</label></div></div>';
+		return newContent;
+	}
 	function showCoords(c)
 	{
 		$('#x').val(c.x);
@@ -1033,12 +1113,18 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 											            // do some loading options
 											        },
 											        success: function (data) {
+											        	$('.imageCounts').val(parseInt($('.imageCounts').val())+1);
+											        	var nextindex = parseInt($('.imageCounts').val());
 											        	$('#loading').hide();
 											    		$('.jcrop-holder').hide();
 											    		$('#tmpimg').show();
 											    		filename = "/"+filename+"?updated";
-											    		$('#previewImgage').attr("src",filename);
-											    		$('#Properties_property_image').val(filename);
+											    		var newImg = UpdateimgBlock(nextindex,filename);
+											    		$('.propertyImagesContainer').append(newImg);
+											    		console.log(nextindex);
+											    		if(nextindex==5){
+											    			$('.uploadButton').hide();
+											    		}
 											    		$('#myModal').modal('hide');
 											        }
 											 });
@@ -1046,6 +1132,28 @@ Power back-up and RO water system is already installed. Intercom facilities is a
 				        	}
 		        	 }
 			 });
+		});
+		$('.crop_image').on('click',function(){
+			jcrop_api = $('#tmpimg');
+	            $('#tmpimg').Jcrop({
+	        		onChange: showCoords,
+	        		onSelect: showCoords
+	        	});
+			
+		});
+		$('.propertyImagesContainer').on('click','label',function(){
+			console.log($('.propertyImagesContainer .propertyImage').length);
+			var $currentElement = $(this).parent().parent();
+			$.when($(this).parent().parent().fadeOut()).then(function(){
+				$currentElement.remove();
+				$('.propertyImagesContainer .propertyImage').each(function(i,k){
+					var fname = $(k).find('input').val();
+					var newContent = UpdateimgBlock((i+1),fname);
+					$(k).replaceWith(newContent);
+				});
+				$('.imageCounts').val($('.propertyImagesContainer .propertyImage').length);
+				$('.uploadButton').show();
+			});
 		});
 	});
 </script>

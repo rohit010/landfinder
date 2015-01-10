@@ -2482,3 +2482,2045 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 ---
 2015/01/09 00:33:28 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'landfind'@'localhost' (using password: YES)
+2015/01/10 13:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/10 13:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 13:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 13:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 13:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 13:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:02:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:02:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:04:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:04:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:07:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 14:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:05:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:05:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:05:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+---
+2015/01/10 15:05:56 [error] [php] imagecreatetruecolor() expects parameter 1 to be long, string given (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:367)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/AJAXuploadCropedImg
+2015/01/10 15:06:54 [error] [php] copy(propertyImages/tmp/propertyImages/images/Screenshot from 2014-12-23 16:17:58_1420882544_.png): failed to open stream: No such file or directory (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:390)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/MoveImages
+2015/01/10 15:08:58 [error] [php] copy(propertyImages/tmp/propertyImages/images/Screenshot from 2014-12-23 16:17:58_1420882544_.png): failed to open stream: No such file or directory (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:390)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/MoveImages
+2015/01/10 15:09:45 [error] [php] copy(/propertyImages/tmp/propertyImages/images/Screenshot from 2014-12-23 16:17:58_1420882544_.png): failed to open stream: No such file or directory (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:390)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/MoveImages
+2015/01/10 15:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:12:49 [error] [php] imagecreatetruecolor() expects parameter 1 to be long, string given (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:367)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/AJAXuploadCropedImg
+2015/01/10 15:16:01 [error] [php] copy(propertyImages/tmp/propertyImages/images/Screenshot from 2014-12-24 11:12:12_1420882962_.png): failed to open stream: No such file or directory (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:390)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/MoveImages
+2015/01/10 15:20:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-24 11:12:12_1420882962_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-24%2011:12:12_1420882962_.png
+---
+2015/01/10 15:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:21:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:21:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:22:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:27:00 [error] [php] copy(propertyImages/tmp//propertyImages/images/Screenshot from 2015-01-09 12:08:42_1420883590_.png?updated): failed to open stream: No such file or directory (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:391)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/MoveImages
+2015/01/10 15:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:28:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:28:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/10 15:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/10 15:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:43:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 15:43:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418196871_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418196871_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=1
+---
+2015/01/10 16:35:59 [error] [php] imagecreatetruecolor() expects parameter 1 to be long, string given (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:367)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/AJAXuploadCropedImg
+2015/01/10 16:36:41 [error] [php] copy(propertyImages/tmp/propertyImages/images/Screenshot from 2014-12-19 19:23:35_1420887947_.png): failed to open stream: No such file or directory (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:391)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/MoveImages
+2015/01/10 16:39:27 [error] [php] imagecopyresampled() expects parameter 5 to be long, string given (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:370)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/AJAXuploadCropedImg
+2015/01/10 16:41:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 16:41:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:02:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-22 16:02:56_1420889595_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-22%2016:02:56_1420889595_.png
+---
+2015/01/10 17:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-22 16:02:56_1420889595_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-22%2016:02:56_1420889595_.png
+---
+2015/01/10 17:06:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:06:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:08:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-23 16:17:58_1420889810_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-23%2016:17:58_1420889810_.png
+---
+2015/01/10 17:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:10:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:10:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-19 19:23:35_1420890047_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-19%2019:23:35_1420890047_.png
+---
+2015/01/10 17:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-19 19:23:35_1420890047_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-19%2019:23:35_1420890047_.png
+---
+2015/01/10 17:15:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-19 19:23:35_1420890047_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-19%2019:23:35_1420890047_.png
+---
+2015/01/10 17:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:17:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-23 16:17:58_1420890396_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-23%2016:17:58_1420890396_.png
+---
+2015/01/10 17:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:21:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:21:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:22:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:22:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:27:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:27:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:30:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:30:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:52:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-24 11:12:12_1420892534_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-24%2011:12:12_1420892534_.png
+---
+2015/01/10 17:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 17:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:16:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:16:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:39:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:40:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:40:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:44:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:44:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:44:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 18:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:50:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:50:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:51:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:51:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:51:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:52:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:52:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:53:10 [error] [php] imagecopyresampled() expects parameter 5 to be long, string given (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:370)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/AJAXuploadCropedImg
+2015/01/10 18:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 18:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:03:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:03:57 [error] [php] imagecopyresampled() expects parameter 5 to be long, string given (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:370)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/AJAXuploadCropedImg
+2015/01/10 19:04:00 [error] [php] copy(propertyImages/tmp/propertyImages/images/Screenshot from 2014-12-23 16:17:58_1420896835_.png): failed to open stream: No such file or directory (/home/basavaraj/Documents/projects/others/landfinder/protected/modules/Users/controllers/DefaultController.php:392)
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /home/basavaraj/Documents/projects/others/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CWebApplication->run()
+REQUEST_URI=/Users/default/MoveImages
+2015/01/10 19:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 19:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan (1)_1418197832_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan%20(1)_1418197832_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=2
+---
+2015/01/10 19:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:04:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/citadel-floorplan_1418198630_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/citadel-floorplan_1418198630_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=3
+---
+2015/01/10 19:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/tmp/Screenshot from 2014-12-19 19:23:35_1420897063_.png".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/tmp/Screenshot%20from%202014-12-19%2019:23:35_1420897063_.png
+---
+2015/01/10 19:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/ozonev_layout_1418362606_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/ozonev_layout_1418362606_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=4
+---
+2015/01/10 19:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "propertyImages/images/ozonev_layout_1418362606_.jpg".' in /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/basavaraj/Documents/projects/others/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('propertyImages/...')
+#1 /home/basavaraj/Documents/projects/others/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/basavaraj/Documents/projects/others/landfinder/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/propertyImages/images/ozonev_layout_1418362606_.jpg?updated
+HTTP_REFERER=http://vm.landfinder.in/Users/default/EditProperty?id=4
+---

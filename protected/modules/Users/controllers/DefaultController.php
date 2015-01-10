@@ -364,6 +364,8 @@ class DefaultController extends Controller
 		else {
 			return false;
 		}
+		$coords['w'] = (($coords['w']==0)?100:$coords['w']);
+		$coords['h'] = (($coords['h']==0)?100:$coords['h']);
 		$dest_r = imagecreatetruecolor($coords['w'], $coords['h']);
 		if (!imagecopyresampled($dest_r, $img, 0, 0, $coords['x'], $coords['y'], $coords['w'], $coords['h'], $coords['w'], $coords['h'])) {
 			return false;
@@ -571,7 +573,7 @@ class DefaultController extends Controller
 					$url = Yii::app()->request->url;
 					$this->redirect('/Users/default/ManageProperties');
 				} 	
-					CVarDumper::dump($model,10,true); exit;
+					//CVarDumper::dump($model,10,true); exit;
 			}
 			$this->render('addProperty',
 										array(
@@ -632,6 +634,11 @@ class DefaultController extends Controller
 			$model->age_of_construction = (isset($_POST['Properties']['age_of_construction'])?$_POST['Properties']['age_of_construction']:"");
 			$model->area_unit = (isset($_POST['Properties']['area_unit'])?$_POST['Properties']['area_unit']:"");
 			$model->property_address = (isset($_POST['Properties']['property_address'])?$_POST['Properties']['property_address']:"");
+			$model->property_image = (isset($_POST['Properties']['property_image'])?$_POST['Properties']['property_image']:"");
+			$model->property_image_2 = (isset($_POST['Properties']['property_image_2'])?$_POST['Properties']['property_image_2']:"");
+			$model->property_image_3 = (isset($_POST['Properties']['property_image_3'])?$_POST['Properties']['property_image_3']:"");
+			$model->property_image_4 = (isset($_POST['Properties']['property_image_4'])?$_POST['Properties']['property_image_4']:"");
+			$model->property_image_5 = (isset($_POST['Properties']['property_image_5'])?$_POST['Properties']['property_image_5']:"");
 			$model->status = 0;
 			$model->created_by = Yii::app()->user->id;
 			$model->created_time = time();
@@ -640,6 +647,7 @@ class DefaultController extends Controller
 			$this->performAjaxValidation($model,'users-addUser-form');
 			if($model->save())
 			{
+				//CVarDumper::dump($model,10,true); exit;
 				if(isset($_REQUEST['property_amenities']) && (!empty($_REQUEST['property_amenities']))){
 					$insertArray = $activate = $deactivate = array();
 					foreach ($ExistAmenitiesIds as $key1=>$val1){
@@ -672,7 +680,6 @@ class DefaultController extends Controller
 					$sql = "UPDATE user_amenities SET status = 0 WHERE prop_id = :prop_id ";
 					$rseult = $this->db->createCommand($sql)->bindParam(":uid",$id,PDO::PARAM_INT)->execute();
 				}
-				//CVarDumper::dump($model,10,true); exit;
 				Yii::app()->user->setFlash('sucess','User Created Successfully.');
 				//if($step=="1"){
 					$url = Yii::app()->request->url;
@@ -751,7 +758,7 @@ class DefaultController extends Controller
 						LEFT JOIN city c ON p.city = c.city_id 
 						LEFT JOIN category_new cn ON cn.category_id = p.property_type";
 		$sql_where = "";
-		$SQLoRDER = "order by p.updated_time ";
+		$SQLoRDER = "order by p.updated_time DESC";
 		
 		$SQL = "SELECT $sSQLSelect $sSQLFrom $SQLoRDER LIMIT $offset, $limit ";
 		$SQLCount = "SELECT count(*) $sSQLFrom";
